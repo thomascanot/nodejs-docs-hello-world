@@ -66,6 +66,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'WebAppTP5'
-          slot-name: 'prod'
           package: .
           
